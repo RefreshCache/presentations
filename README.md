@@ -2,7 +2,8 @@
 =================================================================
 
 ## What Are You Looking For?
-[Presentations](http://refreshcache.github.com/presentations) from previous year's RefreshCache event are over in the gh-pages area http://nairdo.github.com/RefreshCache
+[Presentations](http://refreshcache.github.com/presentations) from previous year's RefreshCache event
+are over in the gh-pages area http://refreshcache.github.com/presentations
 
 
 ## Other Things
