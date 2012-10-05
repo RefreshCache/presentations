@@ -210,9 +210,10 @@ th {
 }
 
 td {
-  border: 1px solid #ebebeb;
+  border: 1px solid #FAFAFA;
   text-align: center; 
   font-weight: 300;
+  padding: 8px;
 }
 
 form {
