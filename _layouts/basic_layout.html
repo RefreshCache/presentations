@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include standard_head.html %}
+  <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+  	
+		{% include header.html %}
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+				{{content}}
+        </section>
+
+        {% include sidebar.html %}
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2012 <a href="http://www.refreshcache.com">RefreshCache</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a></p>
+    </footer>
+
+  </body>
+</html>
