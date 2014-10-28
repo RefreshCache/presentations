@@ -101,8 +101,7 @@ a.sched-social-connect-button:active {background-position:0 -47px;}
 #sched-footer-dates li { float: left; margin-right: 20px; }
 
 
-#sched-body { -moz-border-radius:5px;-webkit-border-radius:5px;background:#fff;border-radius:5px;-webkit-box-shadow:0 0 3px rgba(0,0,0,.5);-moz-box-shadow:0 0 3px rgba(0,0,0,.5);box-shadow:0 0 3px rgba(0,0,0,.5);z-index:9;position:relative;margin-top:70px;
-margin-bottom:0;padding:0;}
+#sched-body { background:#fff;z-index:9;position:relative;margin-top:70px;margin-bottom:0;padding:0;}
 #sched-body-inner {padding:0 15px;margin-bottom:0;}
 .schedorg-body-embed #sched-body {background:none;}
 .schedorg-body-sidebaroff #sched-content {margin-right:0;}
