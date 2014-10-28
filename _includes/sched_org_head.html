@@ -1,0 +1,174 @@
+﻿  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/presentations/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/presentations/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/presentations/stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/presentations/stylesheets/custom-screen.css" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+		<title>{{ page.title }}</title>
+
+    <style type="text/css">
+      /*body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }*/
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .table th, .table td { border-top: 1px solid white; }
+      .presDescription { font-size: 12px; color: #555;}
+			.basicTrack { background-color: #0F8B1B; }
+			.advTrack {	background-color: #006299; }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+      <style type="text/css">
+          #sched-content .ev_1, .ev_1 span.box, #tip .ev_1, #sched-sidebar-filters .ev_1 span.box {
+              background-color: #7fb5f3;
+          }
+
+          #sched-content .ev_2, .ev_2 span.box, #tip .ev_2, #sched-sidebar-filters .ev_2 span.box {
+              background-color: #fc584f;
+          }
+
+          #sched-content .ev_3, .ev_3 span.box, #tip .ev_3, #sched-sidebar-filters .ev_3 span.box {
+              background-color: #f78526;
+          }
+
+          #sched-content .ev_4, .ev_4 span.box, #tip .ev_4, #sched-sidebar-filters .ev_4 span.box {
+              background-color: #A7D1E6;
+          }
+
+          #sched-content .ev_5, .ev_5 span.box, #tip .ev_5, #sched-sidebar-filters .ev_5 span.box {
+              background-color: #d0c8fe;
+          }
+
+          #sched-content .ev_6, .ev_6 span.box, #tip .ev_6, #sched-sidebar-filters .ev_6 span.box {
+              background-color: #44F4C4;
+          }
+
+          #sched-content .ev_7, .ev_7 span.box, #tip .ev_7, #sched-sidebar-filters .ev_7 span.box {
+              background-color: #b6ff67;
+          }
+
+          #sched-content .ev_8, .ev_8 span.box, #tip .ev_8, #sched-sidebar-filters .ev_8 span.box {
+              background-color: #fbf413;
+          }
+
+          #sched-content .ev_9, .ev_9 span.box, #tip .ev_9, #sched-sidebar-filters .ev_9 span.box {
+              background-color: #dadddc;
+          }
+
+          #sched-content .ev_10, .ev_10 span.box, #tip .ev_10, #sched-sidebar-filters .ev_10 span.box {
+              background-color: #a8ffff;
+          }
+      </style>
+
+      <style type="text/css">
+          #eb-onboard {
+              text-align: center;
+              margin: 60px auto -80px;
+              border-radius: 10px;
+              padding: 20px 10px 30px;
+              border: 6px solid rgba(155,155,155,.6);
+              background: rgba(155,155,155,.3);
+          }
+
+              #eb-onboard .onboard-step {
+                  float: left;
+                  width: 32%;
+                  min-width: 200px;
+                  margin: 5px 0 0 5px;
+                  text-align: center;
+              }
+
+              #eb-onboard .onboard-step-inner {
+                  margin: 0 10px;
+                  -webkit-border-radius: 8px;
+                  -moz-border-radius: 8px;
+                  border-radius: 8px;
+                  padding: 0;
+              }
+
+              #eb-onboard .onboard-step img {
+                  border-radius: 3px;
+              }
+
+          .onboard-image {
+              margin: 0 auto 5px;
+              border: 1px solid #ccc;
+              background: #FEFEFE;
+              padding: 5px;
+              border-radius: 8px;
+              width: 164px;
+          }
+
+          #eb-onboard strong {
+              font-size: 18px;
+              margin-bottom: 8px;
+              display: block;
+          }
+
+          #eb-onboard h2 {
+              font-size: 20px;
+          }
+
+          @media(max-width:750px) {
+              #eb-onboard {
+                  padding: 20px 0 0;
+              }
+
+                  #eb-onboard .onboard-step {
+                      display: none;
+                  }
+
+                      #eb-onboard .onboard-step img {
+                          display: none;
+                      }
+
+              .onboard-image {
+                  display: none;
+              }
+
+              #step1-eventbrite {
+                  text-align: center;
+                  background: none;
+                  padding: 0;
+                  line-height: 2em;
+              }
+
+                  #step1-eventbrite p {
+                      line-height: 1.5em;
+                  }
+
+                  #step1-eventbrite em {
+                      display: none !important;
+                  }
+          }
+      </style>
+
+      <style>
+          .sched-overlay-text a {
+              color: #B7CDFF;
+              border-bottom: 1px solid #B7CDFF;
+          }
+
+              .sched-overlay-text a:hover {
+                  border: 0;
+                  color: #fff;
+              }
+      </style>
+  </head>
